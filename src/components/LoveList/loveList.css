@@ -1,0 +1,23 @@
+.love-list .love-list__title {
+  margin: 8px 16px;
+}
+
+.love-list ul {
+  list-style-type: none;
+  margin: 28px 0;
+}
+
+.love-list li {
+  font-size: 12px;
+  margin: 16px 0;
+  position: relative;
+  padding-left: 10px;
+}
+
+.love-list li:before {
+  content: "💗";
+  font-size: 12px;
+  position: absolute;
+  left: -25px;
+  bottom: 0px;
+}

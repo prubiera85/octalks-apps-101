@@ -1,0 +1,51 @@
+.hate-list .hate-list__title {
+  margin: 8px 16px;
+}
+
+.hate-list ul {
+  list-style-type: none;
+  margin: 28px 0;
+}
+
+.hate-list ul li {
+  font-size: 12px;
+  margin: 16px 0;
+  position: relative;
+  padding-left: 10px;
+}
+
+.hate-list ul li:before {
+  content: ".";
+  font-size: 16px;
+  position: absolute;
+  left: -25px;
+  top: 0px;
+}
+
+.hate-list .indentada {
+  margin-left: 20px;
+}
+.hate-list .indentada2 {
+  margin-left: 50px;
+}
+
+
+/* .hate-list ul {
+  list-style-type: none;
+  margin: 28px 0;
+}
+
+.hate-list li {
+  font-size: 12px;
+  margin: 16px 0;
+  position: relative;
+  padding-left: 10px;
+}
+
+.hate-list li:before {
+  content: "💩";
+  font-size: 16px;
+  position: absolute;
+  left: -25px;
+  bottom: 0px;
+} */

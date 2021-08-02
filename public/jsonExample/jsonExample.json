@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "Patata Cruda",
+    "img": "jsonExample/patata.png",
+    "types": ["crudo", "vegetal", "tubérculo"]
+  },
+  {
+    "id": 2,
+    "name": "Patata Frita",
+    "img": "jsonExample/patatafrita.png",
+    "types": ["frito", "aceitoso"]
+  },
+  {
+    "id": 3,
+    "name": "Tortilla",
+    "img": "jsonExample/tortilla.png",
+    "types": ["jugoso", "mítico"]
+  }
+]

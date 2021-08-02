@@ -1,0 +1,26 @@
+.pokemon-list-final__container {
+  height: 100vh;
+  overflow: auto;
+  margin: 0;
+  background-color: #4f535c;
+}
+
+.pokecard-list-grid {
+  max-width: 900px;
+  width: 90%;
+  margin: 46px auto;
+  display: grid;
+  grid-gap: 1rem;
+}
+
+@media (min-width: 600px) {
+  .pokecard-list-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 900px) {
+  .pokecard-list-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

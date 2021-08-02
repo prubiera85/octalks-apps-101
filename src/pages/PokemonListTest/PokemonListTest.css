@@ -1,0 +1,52 @@
+.pokemon-list__container {
+  height: 100vh;
+  overflow: auto;
+  margin: 0;
+  background-color: #4f535c;
+}
+
+.pokecard-list__grid {
+  max-width: 900px;
+  width: 90%;
+  margin: 46px auto 24px;
+  display: grid;
+  grid-gap: 1rem;
+}
+
+.pokemon-list__classification-container {
+  max-width: 900px;
+  width: 90%;
+  margin: 16px auto;
+  display: block;
+}
+
+.pokemon-list__classification-container .love-list,
+.pokemon-list__classification-container .hate-list {
+  width: 100%;
+  font-family: PokemonGB;
+  border-radius: 4px;
+  border: 2px solid #282c34;
+  background-color: white;
+  padding: 16px;
+}
+
+@media (min-width: 600px) {
+  .pokecard-list__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .pokemon-list__classification-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .pokemon-list__classification-container .love-list,
+  .pokemon-list__classification-container .hate-list {
+    width: 49%;
+  }
+}
+
+@media (min-width: 900px) {
+  .pokecard-list__grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
